@@ -55,12 +55,24 @@ Use `regress.py` to project SMPL 3D vertices to 2D keypoints in OpenPose format.
 
 **Example Workflow:**
 ```bash
-python regress.py
+python regress.py --mesh_dir path/to/mesh_dir --output_dir path/to/output
 # Generates JSON keypoints from SMPL models
 
 python draw_op.py --input path/to/images_or_folder --output result.png --concat
 # Visualizes keypoints on images
 ```
+
+### 4. Generate mesh projections for visualization (Optional)
+`format_3d_blender.py` can be used to align 3D meshes and project them onto images for visualization.  
+- Input: SMPL mesh (`mesh.obj`) and camera files (`intrinsics.txt`, poses)  
+- Output: Projected images saved to `save_dir`  
+
+```bash
+python tools/format_3d_blender.py --dir path/to/case_dir --mode project
+```
+>This is optional and mainly for visualization or preparing image datasets for 2D keypoint regression.
+
+
 
 
 
