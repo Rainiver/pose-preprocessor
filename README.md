@@ -21,7 +21,7 @@ It is primarily designed as a data preparation module for [Multiview-Avatar](htt
 ├── utils/ # Helper functions for image and pose processing
 │   ├── image_utils.py
 │   ├── pose_utils.py
-│   └── init.py
+│   └── __init__.py
 ├── regressors/ # Pre-trained regressor matrices for body/face/hands
 │   ├── body_25_openpose_joints.pkl
 │   ├── face_70_openpose_joints.pkl
