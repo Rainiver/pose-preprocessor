@@ -72,9 +72,11 @@ python tools/format_3d_blender.py --dir path/to/case_dir --mode project
 ```
 >This is optional and mainly for visualization or preparing image datasets for 2D keypoint regression.
 
+### Result Example
 
-
-
+<p align="center">
+  <img src="assets/result.png" width="600"/>
+</p>
 
 
 
