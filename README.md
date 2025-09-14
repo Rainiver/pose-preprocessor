@@ -1,5 +1,7 @@
 # PrePose: Preprocessing Toolkit for OpenPose-based Multiview Avatar Generation
 
+> **Note**: This project originates from my earlier work and has been recently reorganized and released for reproducibility.
+
 This repository provides a preprocessing pipeline to convert **single-view or multi-view images** into **OpenPose skeleton maps**, with optional concatenation for downstream tasks.  
 It is primarily designed as a data preparation module for [Multiview-Avatar](https://github.com/ArcherFMY/Multiview-Avatar), but can be used independently for pose extraction and visualization.
 
